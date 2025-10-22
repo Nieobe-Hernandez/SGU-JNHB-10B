@@ -20,7 +20,7 @@ public class UserController {
         this.service = service;
     }
 
-    @GetMapping
+    @GetMapping("")
     public ResponseEntity<List<User>> getAll() {
         return ResponseEntity.ok(service.findAll());
     }
@@ -32,7 +32,7 @@ public class UserController {
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @PostMapping
+    @PostMapping("")
     public ResponseEntity<User> create(@Valid @RequestBody User user) {
         User created = service.save(user);
         return ResponseEntity.created(URI.create("/api/users/" + created.getId())).body(created);
