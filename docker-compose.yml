@@ -23,7 +23,7 @@ services:
         API_BASE: /sgu-api
     container_name: sgu-frontend
     ports:
-      - "3000:80"
+      - "3001:80"
     networks:
       - sgu-net
     restart: unless-stopped
