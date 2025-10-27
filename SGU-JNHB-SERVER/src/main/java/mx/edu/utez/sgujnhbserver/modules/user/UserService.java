@@ -1,4 +1,4 @@
-package mx.edu.utez.sgujnhbserver.modules;
+package mx.edu.utez.sgujnhbserver.modules.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

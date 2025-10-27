@@ -1,7 +1,5 @@
-package mx.edu.utez.sgujnhbserver.controller;
+package mx.edu.utez.sgujnhbserver.modules.user;
 
-import mx.edu.utez.sgujnhbserver.modules.User;
-import mx.edu.utez.sgujnhbserver.modules.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

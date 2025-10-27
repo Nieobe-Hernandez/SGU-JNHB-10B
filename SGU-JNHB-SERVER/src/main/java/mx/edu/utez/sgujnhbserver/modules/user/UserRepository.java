@@ -1,4 +1,4 @@
-package mx.edu.utez.sgujnhbserver.modules;
+package mx.edu.utez.sgujnhbserver.modules.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
