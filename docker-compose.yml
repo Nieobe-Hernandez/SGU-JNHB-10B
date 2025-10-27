@@ -14,7 +14,7 @@ services:
     restart: unless-stopped 
 
   frontend:
-    image: client:latest 
+    image: client:1.0-sgu
     build:
       context: ./SGU-JNHB-CLIENT
       args:
@@ -31,7 +31,7 @@ services:
       - database
       
   backend:
-    image: server:latest
+    image: server:1.0-sgu
     build:
       context: ./SGU-JNHB-SERVER
     container_name: sgu-backend
